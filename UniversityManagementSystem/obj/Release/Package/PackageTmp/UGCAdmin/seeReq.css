@@ -1,0 +1,90 @@
+﻿*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #0099cc;
+}
+.main-container{
+   
+}
+#hl_BackLink{
+    box-shadow: 2px 2px 4px 1px rgba(0,0,0,0.1);
+    display: block;
+    text-align: center;
+    width: 150px;
+    padding: 5px 10px;
+    margin: 10px auto;
+    text-decoration: none;
+    background-color:aliceblue;
+    border: 1px solid aliceblue;
+}
+#hl_BackLink:hover{
+    background-color: azure;
+    border: 1px solid aliceblue;
+}
+.main-container h1{
+    text-align:center;
+    margin-bottom: 10px;
+    font-size: 2em;
+    font-family: 'Raleway';
+    color: #fff;
+}
+.main-container label[for=GridView1]
+{
+    text-align:center;
+   color: #fff;
+    display:block;
+    font-size: 1.5em;
+    font-family: 'Raleway'
+}
+.main-container table{
+    background-color: azure;
+    margin: 10px auto;
+    box-shadow: 0px 15px 15px -10px rgba(0,0,0,0.15);
+}
+#GridView1{
+    width: 80%;
+    border: none;
+}
+#GridView1 tr{
+    border-bottom: 1px groove #eee;
+}
+#GridView1 tr td{
+    font-family:  'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 0.75em;
+    padding: 0px 10px;
+}
+#GridView1 tr td:first-child{
+    color: #3a11c8;
+    font-weight: 600;
+}
+.main-container table tr,td,th{
+    border:none;
+}
+.main-container table tr:first-child{
+    background: linear-gradient(to bottom,#808080,#cdcdcd);
+    border:none;
+    height:40px;
+    font-family: 'Raleway';
+}
+.main-container table tr:first-child th{
+    padding: 5px 10px;
+}
+.main-container table td{
+    padding: 10px;
+    
+}
+.main-container table td a{
+    text-decoration: none;
+    font-size: 1.3em;
+}
+.main-container table tr:nth-child(even)
+{
+    background-color: aliceblue;
+}
+.main-container table tr:nth-child(odd)
+{
+    background-color:azure;
+}

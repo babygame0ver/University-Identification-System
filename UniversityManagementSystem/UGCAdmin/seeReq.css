@@ -1,0 +1,182 @@
+﻿*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+  
+}
+header{
+    height: 50px;
+    background-color: #0099cc;
+}
+.logo{
+    float: left;
+    font-family: sans-serif;
+    font-size: 2.1em;
+    margin-left: 15%;
+    margin-top: 6px;
+    color: #eee;
+    font-weight: 500;
+}
+
+#hl_BackLink{
+    text-decoration: none;
+    color: #eee;
+    /*outline: 1px solid #fff;*/
+    display: inline-flex;
+    padding: 3px 4px;
+    margin-top: 12px;
+    margin-left: 90px; 
+    font-family: 'Raleway';  
+    font-weight: 500;
+}
+#hl_BackLink:hover{
+    color: #ef7;
+    text-decoration: underline;
+}
+#hl_BackLink:visited{
+    color: #afa;
+}
+
+.main-container .img-title-box{
+    width: 320px;
+    margin: 0px auto 30px auto;
+    height:100px;
+    line-height: 140px;
+}
+.main-container img{
+    float: left;
+}
+.main-container h1{
+    text-align:center;
+    margin-bottom: 10px;
+    font-size: 2em;
+    font-family: 'Raleway';
+    color: #0099cc;
+    margin-top: 40px;
+}
+.main-container label[for=GridView1],label[for=GridView2]
+{
+    text-align:center;
+   color: #000;
+    display:block;
+    font-size: 1.5em;
+    font-family: 'Raleway'
+}
+.main-container table{
+    background-color: azure;
+    margin: 10px auto;
+    box-shadow: 0px 15px 15px -10px rgba(0,0,0,0.15);
+}
+/*#GridView1{
+    width: 80%;
+    border: none;
+}*/
+
+#btn_logout{
+     box-shadow: 2px 2px 4px 1px rgba(0,0,0,0.1);
+    display:inline-block;
+    text-align: center;
+    width: 150px;
+    padding: 5px 10px;
+    margin: 10px;
+    text-decoration: none;
+    background-color:aliceblue;
+    border: 1px solid aliceblue;
+    font-family:'Raleway';
+    color: #0b1ca4;
+    font-size: 1em;
+    float: right;
+}
+#btn_logout:hover{
+    background-color: #a7ffeb;
+    border: 1px solid aliceblue;
+    cursor:pointer;
+}
+/* styling rules for form switch container */
+.form-switch-btn-container{
+    /*background-color: #0099cc;*/
+    text-align: center;
+    margin-top: 20px;
+}
+
+.form-switch-btn-container input[type=button]{
+    border:10px solid #ddd;
+    outline: none;
+    border-radius: 5px;
+    /*background-color: #fff;*/
+    font-size: 1.1em;
+    font-family: 'Raleway';
+    padding: 0px 80px;
+    margin: 0px 10px;
+    letter-spacing:1px;
+    color: #111;
+}
+.form-switch-btn-container input[type=button]:hover{
+    cursor: pointer;
+}
+
+.fake-report-container{
+display: none;    
+}
+.bottom-arrow-1,.bottom-arrow-2{
+    width:0;
+    height:0;
+    border: 20px solid #fff;
+    border-top: 25px solid #0099cc ;
+}
+.bottom-arrow-1{
+    position: relative;
+    left: 34%;
+}
+.bottom-arrow-2{
+    position: relative;
+    left: 62%;
+    display: none;
+}
+/*rules ends here */
+table{
+    width: 80%;
+    border: none;
+}
+#GridView1 tr{
+    border-bottom: 1px groove #eee;
+}
+#GridView1 tr td{
+    font-family:  'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 0.75em;
+    padding: 0px 10px;
+}
+#GridView1 tr td:first-child{
+    color: #3a11c8;
+    font-weight: 600;
+}
+.main-container table tr,td,th{
+    border:none;
+}
+.main-container table tr:first-child{
+    background: linear-gradient(to bottom,#808080,#cdcdcd);
+    border:none;
+    height:40px;
+    font-family: 'Raleway';
+}
+.main-container table tr:first-child th{
+    padding: 5px 10px;
+}
+.main-container table td{
+    padding: 10px;
+    
+}
+.main-container table td a{
+    text-decoration: none;
+    font-size: 1.3em;
+}
+.main-container table tr:nth-child(even)
+{
+    background-color: aliceblue;
+}
+.main-container table tr:nth-child(odd)
+{
+    background-color:azure;
+}

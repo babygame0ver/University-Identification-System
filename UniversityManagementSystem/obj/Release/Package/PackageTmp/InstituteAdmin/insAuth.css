@@ -1,0 +1,78 @@
+﻿*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.main-container{
+    
+}
+.main-container img{
+    display: block;
+    margin: 50px auto 0px auto;
+}
+.main-container .form-container{
+  
+    width: 400px;
+    display: block;
+    margin: 10px auto;
+    text-align:center;
+}
+.form-container input[type=text],.form-container input[type=password],.form-container input[type=submit]
+{
+    width: 300px;
+    height: 30px;
+    margin: 3px auto;
+    outline:none;
+    font-size: 0.9em;
+}
+.form-container input[type=text]{
+    margin-top: 20px;
+}
+.form-container input[type=text],.form-container input[type=password]{
+    border: 2px solid #999;
+    padding: 0px 4px;
+}
+.form-container input[type=text]:focus,.form-container input[type=password]:focus{
+    border: 2px solid #0078d7;
+}
+.form-container input[type=submit]{
+    background-color: #0078d7;
+    border-color: #0078d7;
+    border:none;
+    color: #fff;
+    font-family:'Lucida Sans', 'Lucida Sans Regular';
+    margin-top: 10px;
+    transition: background-color 150ms ease-out;
+    -moz-transition: background-color 150ms ease-out;
+    -webkit-transition: background-color 150ms ease-out;
+    -o-transition: background-color 150ms ease-out;
+}
+.form-container input[type=submit]:hover{
+    background-color: #0078e7;
+    cursor: pointer;
+}
+
+.main-container .form-title{
+    font-size: 2em;
+    font-family: 'Raleway';
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+.main-container .alernate-account{
+    font-size: 1.2em;
+    font-family: 'Raleway';
+    margin-top: 10px;
+    font-weight: 500;
+}
+.main-container .whats-this{
+    font-family: 'Raleway';
+    font-size: 0.9em;
+    margin-bottom: 20px;
+    color: #0078e7;
+    font-weight: bold;
+    text-decoration: none;
+}
+.main-container .whats-this:hover{
+    color: #00a8f7;
+}

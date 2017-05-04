@@ -1,0 +1,730 @@
+﻿*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.logo{
+    float: left;
+    font-family: sans-serif;
+    font-size: 2.1em;
+    margin-left: 15%;
+    margin-top: 6px;
+    color: #eee;
+    font-weight: 500;
+}
+header{
+    height: 50px;
+    background-color: #0099cc;
+}
+#AddInstitute{
+    /*background-color:#2BBBAD;*/
+    /*background-color:#0099cc;*/
+    padding: 19px;
+    display:block;
+    
+}
+
+#btn_logout,.btn-container input[type=button]{
+    box-shadow: 2px 2px 4px 1px rgba(0,0,0,0.1);
+    display:inline-block;
+    text-align: center;
+    width: 150px;
+    padding: 5px 10px;
+    margin: 10px;
+    text-decoration: none;
+    background-color:aliceblue;
+    border: 1px solid aliceblue;
+    font-family:'Raleway';
+    color: #0b1ca4;
+    font-size: 1em;
+}
+#btn_logout{
+    float: right;
+}
+#hl_BackLink{
+    text-decoration: none;
+    color: #eee;
+    /*outline: 1px solid #fff;*/
+    display: inline-flex;
+    padding: 3px 4px;
+    margin-top: 12px;
+    margin-left: 90px; 
+    font-family: 'Raleway';  
+    font-weight: 500;
+}
+#hl_BackLink:hover{
+    color: #ef7;
+    text-decoration: underline;
+}
+#hl_BackLink:visited{
+    color: #afa;
+}
+.btn-container input[type=button]{
+    width: 170px;
+}
+#btn_logout:hover,.btn-container input[type=button]:hover
+{
+    background-color: #a7ffeb;
+    border: 1px solid aliceblue;
+    cursor:pointer;
+}
+.add-ins-title{
+    text-align:center;
+    margin:0px;
+    color:#fff;
+    font-family:'Raleway',sans-serif;
+    letter-spacing: 1px;
+}
+.add-ins-form-main-container{
+   
+    background-color:rgba(255,255,255,1);
+    width: 790px;
+    padding-top: 0px;
+    margin: 0px 10px;
+    box-shadow: 1px 1px 1px 10px rgba(0,153,204,2);
+    margin: 0px auto;
+}
+
+.add-ins-form-main-container .form-wrapper{
+    /*outline: 1px solid #000;*/
+    width: 600px;
+    display: block;
+    margin: 0px auto;
+    padding:0px;
+}
+
+
+.add-ins-form-main-container label[for=tb_InstituteName],
+label[for=ddl_UniList],label[for=tb_AffiliationUni]{
+    border:none;
+    font-size: 1.2em;   
+    font-weight: 700;
+    color: #666;
+    font-family: 'Raleway';
+    /*outline: 1px solid #000;*/
+}
+label[for=ddl_UniList],label[for=tb_AffiliationUni]{
+    display: block;
+    text-align: center;
+}
+.add-ins-form-main-container #tb_InstituteName{
+   width: 70%;
+   margin-left: 20px;
+   height: 30px;
+   outline: none;
+   font-size:1.05em;
+   padding: 0px 10px;
+   letter-spacing: 0.8px;
+   font-family: 'Raleway';
+   font-weight: 600;
+   color: #667;
+}
+label[for=ddl_InstituteType]{
+    border:none;
+    font-size: 1.2em;   
+    font-weight: 700;
+    color: #666;
+    font-family: 'Raleway';
+    margin-right: 10px;   
+}
+
+#ddl_InstituteType{
+    width: 30%;
+    height: 30px;
+    outline: none;
+   font-size:1.05em;
+   padding: 0px 10px;
+   letter-spacing: 0.8px;
+   font-family: 'Raleway';
+   font-weight: 600;
+   color: #667;
+   margin-bottom: 20px;
+   display: inline-block;
+}
+
+#tb_Established{
+    display: inline-block;
+    width: 25%;
+    margin-left: 47px;
+    height: 30px;   
+    padding: 0px 5px;
+    font-size:0.8em;
+    font-weight: 600;
+}
+.affiliated-uni-box{
+    width: 43%;
+    /*outline: 1px solid #000;*/
+    margin: 20px 0px;
+    display: inline-block;
+}
+
+/*.affiliated-uni-box label[for=ddl_UniList]{
+    margin-bottom: 10px;
+}*/
+
+#ddl_UniList{
+    width: 100%;
+    margin-top: 5px;
+    height: 30px;
+    outline: none;
+   font-size:0.9em;
+   padding: 0px 10px;
+   font-family: 'Raleway';
+   font-weight: 600;
+   color: #667;
+}
+.city-box {
+    display: inline-block;
+    /*float: right;*/
+    width: 41%;
+}
+label[for=tb_City]
+{
+    font-weight: 700;
+    color: #666;
+    font-size: 1.05em;
+    font-family: 'Raleway';
+    text-transform: capitalize;
+    margin-right: 10px;
+}
+#tb_City{
+    /*display: inline-block;*/
+    width: 74%;
+    height: 30px;
+    padding: 0px 10px;
+    font-weight: 600;
+    font-size: 1em;
+    font-family: 'Raleway';
+    color: #666;
+    outline: none;
+
+}
+
+.affiliated-uni-box-2{
+    /*outline: 1px solid #000;*/
+    width: 45.5%;
+    display: inline-block;
+    margin-left: 7px;
+}
+.add-ins-form-main-container .add-new-ins-or{
+    font-size: 1.2em;
+    opacity: 0.5;
+    width: 30px;
+    text-align: center;
+    height: 30px;
+    padding-left: 5px;
+    line-height: 25px;
+    display: inline-flex;
+    margin-left: 10px;
+    position: relative;
+    top: 0px;
+    left: -6px;
+    /*background-color: #0099cc;*/
+    color: #000;
+    font-family: 'Raleway';
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+
+
+
+#tb_AffiliationUni{
+    width: 100%;
+    height: 30px;
+    padding: 0px 10px;
+    font-size: 0.9em;
+    font-weight: 600;
+    font-family:'Raleway';
+    color: #555;
+    outline: none;
+    margin-top:5px;
+}
+
+.state-select-box{
+    /*outline: 1px solid #000;*/
+    width: 45%;
+    display: inline-block;
+    margin-bottom: 20px;
+    /*float: left;*/
+    margin-right: 13px;
+    /*outline: 1px solid #000;*/
+}
+.add-ins-form-main-container label[for=ddl_StaticStatesList]
+{
+    font-weight: 700;
+    color: #666;
+    font-size: 1.05em;
+    font-family: 'Raleway';
+    text-transform: capitalize;
+    margin-right: 10px;
+}
+.add-ins-form-main-container #ddl_StaticStatesList
+{
+    width: 77%;
+    height: 30px;
+    font-family: 'Raleway';
+    font-weight: 600;
+    font-size: 0.9em;
+    outline: none;
+}
+
+#ddl_StaticStatesList:focus,#tb_Address:focus,input[type=email]:focus,input[type=tel]:focus,#tb_AffiliationUni:focus,#tb_City:focus,#ddl_UniList:focus,#tb_InstituteName:focus{
+    border: 2px solid #2886fa;
+}
+
+
+.address-box{
+    /*outline: 1px solid #000;*/
+    margin-bottom:20px;
+}
+label[for=tb_Address]
+{
+    font-weight: 700;
+    color: #666;
+    font-size: 1.05em;
+    font-family: 'Raleway';
+    text-transform: capitalize;
+    margin-right: 10px;
+    /*outline: 1px solid #000;*/
+    position: relative;
+    top: -12px;
+}
+#tb_Address{
+    width:83.6%;
+    min-height: 35px;
+    max-height: 70px;
+}
+
+.add-ins-form-main-container .email-box
+{
+    /*outline: 1px solid #000;*/
+    width: 54.5%;
+    display: inline-block;
+}
+.add-ins-form-main-container .contact-box{
+    width: 42.5%;
+    display: inline-block;
+}
+label[for=tb_Email],label[for=tb_Contact]
+{
+     font-weight: 700;
+    color: #666;
+    font-size: 1.05em;
+    font-family: 'Raleway';
+    text-transform: capitalize;
+    margin-right: 5px;
+}
+.add-ins-form-main-container input[type=email]
+{
+   width: 79%;
+   height: 30px;
+   padding: 0px 10px;
+   color: #666;
+   font-weight: 600;
+   font-family: 'Raleway';
+   font-size: 1em;
+   outline: none;
+}
+.add-ins-form-main-container input[type=tel]
+{
+    width: 69.5%;
+   height: 30px;
+   padding: 0px 10px;
+   color: #666;
+   font-weight: 600;
+   font-family: 'Raleway';
+   font-size: 1em;
+   outline: none;
+   /*margin-right: 13px;*/
+}
+
+
+#lb_SelectProgrammes{
+    padding: 5px 10px;
+    text-decoration: none;
+    text-transform: capitalize;
+    background-color: #ddd;
+    margin-left: 30%;
+
+}
+#lb_SelectProgrammes:hover{
+    background-color: #ccc;
+}
+.add-ins-form-main-container input[type=submit]
+{
+    background-color: #1da1f2;
+    border-radius:4px;
+    width: 98%;
+    height: 35px;
+    border: none;
+    color: #fff;
+    font-size: 1em;
+    margin: 0px auto 12px auto;
+    transition: all 150ms ease-out;
+    -moz-transition: all 150ms ease-out;
+    -webkit-transition: all 150ms ease-out;
+    -o-transition: all 150ms ease-out;
+}
+.add-ins-form-main-container input[type=submit]:hover{
+    cursor: pointer;
+    background-color: #1da1c2;
+}
+.add-ins-form-main-container input[type=submit]:active{
+    background-color: #1d91c2;
+    border:none;
+    outline:none;
+}  
+/*#pnl_AddProgrammes{
+  width: 35%;
+  position: absolute;
+  top: 20%;
+  right: 20px;
+}*/ 
+#pnl_AddProgrammes h3{
+    text-align: center;
+    color: #222;
+    font-family: 'Raleway';
+    font-size: 1.3em;
+    font-weight: 400;
+    border-bottom: 3px solid #aaa;
+    border-top: 3px solid #aaa;
+    padding: 5px 0px;
+    margin: 0px auto 20px auto;
+}
+table{
+    border: none;
+    background-color: #fff;
+    margin: 24px auto 0px auto;
+}
+/*table::before{
+    content:''; 
+    width: 0;
+    height: 0;
+    background-color: #000;
+    border:20px solid #0099CC;
+    border-bottom: 20px solid #fff;
+    position: relative;
+    top: -40px;
+    left:90%;
+    display: block;
+    margin: 0px auto;
+}*/
+table th{
+    padding: 10px;
+    background-color:#ccc;
+    border: none;
+    color:#000;
+}
+table td{
+    padding:2px;
+    border:none;
+    color: #000;
+}
+table tr{
+    border-bottom: 1px solid #aaa;
+    color:#fff;
+}
+table tr td:first-child{
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 5px;
+}
+table tr td:first-child input[type=checkbox]
+{
+    width: 15px;
+    height: 15px;
+    outline:none;
+}
+table tr td:first-child input[type=checkbox]:hover{
+    cursor: pointer;
+}
+
+/*table tr:nth-child(even)
+{
+    background-color:;
+}
+table tr:nth-child(odd)
+{
+    background-color:;
+}*/
+
+#RemoveInstitute,#AddNewProgram{
+    /*background-color:#0099CC;*/
+    padding: 20px;
+    display:none;
+    margin-top: 0%;
+    
+    
+}
+
+
+#RemoveInstitute .remove-ins-title{
+    text-align:center;
+    color:#fff;
+    font-family:'Raleway';
+}
+.remove-ins-main-container, .add-new-prog-main-container{
+    background-color:rgba(255,255,255,1);
+    width: 790px;
+    display:block;
+    margin: 16px auto;
+    text-align:center;
+    padding: 100px 0px 50px 0px;
+    box-shadow: 1px 1px 1px 10px rgba(0,153,204,2);
+    border-radius: 1px;
+}
+
+#ddl_RemoveInstituteList{
+    width: 250px;
+    height: 30px;
+    border-radius: 4px;
+}
+
+
+
+.add-new-prog-main-container input[type=text]{
+    width: 500px;
+    height: 35px;
+    border-radius: 4px;
+    border: 2px solid #ccc; /*#2886fa;*/
+    outline:none;
+    padding: 0px 20px;  
+    font-size: 1em;
+    letter-spacing:1px;
+    margin: 6px 0px;
+    font-family: 'Raleway';
+    font-weight: 700;
+    color: #888;
+}
+#AddNewProgram h2{
+    text-align:center;
+    color: #666;
+    margin-top: -100px;
+    margin-bottom: 30px;
+    font-family:'Raleway';
+    text-transform:capitalize;
+}
+
+
+label[for=ddl_programmesList]
+{
+    font-size: 1.2em;
+    color: #444;
+    font-family: 'Raleway';
+    font-weight: 700;
+
+}
+#ddl_programmesList{
+    width: 38%;
+    height: 30px;
+    font-family:'Raleway';
+    margin-bottom: 10px;
+}
+#orLabel{
+    line-height: 50px;
+    font-size: 1.4em;
+    color: #666;
+}
+#btn_RemoveProgramme{
+    margin-bottom: 0px;
+}
+.add-new-prog-main-container input[type=submit]
+{
+    background-color: #1da1f2;
+    border-radius:4px;
+    width: 500px;
+    height: 35px;
+    border: none;
+    color: #fff;
+    font-size: 1em;
+    margin-top:10px;
+    transition: all 150ms ease-out;
+    -moz-transition: all 150ms ease-out;
+    -webkit-transition: all 150ms ease-out;
+    -o-transition: all 150ms ease-out;
+    font-family: 'Raleway';
+    font-weight: 600;
+    
+}
+
+.add-new-prog-main-container input[type=submit]:hover{
+    cursor: pointer;
+    background-color: #1da1c2;
+}
+.add-new-prog-main-container input[type=submit]:active{
+    background-color: #1d91c2;
+    border:none;
+    outline:none;
+} 
+.add-new-prog-main-container input[type=text]:focus{
+    border: 2px solid #2886fa;
+}
+
+.form-switch-btn-container{
+    /*background-color: #0099cc;*/
+    text-align: center;
+    margin-top: 20px;
+}
+
+.form-switch-btn-container input[type=button]{
+    border:10px solid #ddd;
+    outline: none;
+    border-radius: 5px;
+    /*background-color: #fff;*/
+    font-size: 1.1em;
+    font-family: 'Raleway';
+    padding: 0px 34px;
+    margin: 0px 10px;
+    letter-spacing:1px;
+    color: #111;
+}
+.form-switch-btn-container input[type=button]:hover{
+    cursor: pointer;
+}
+
+/*.form-switch-btn-container input[type=button]:focus{
+    border-top: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+   background-color: #0099CC;
+   color: #ffffff;
+}*/
+
+.add-ins-form-main-container .up-arrow{
+    width: 0;
+    height: 0;
+    background-color: #000;
+    border:20px solid #0099cc;
+    border-bottom: 20px solid #fff;
+    position: relative;
+    top: -40px;
+    left:1%;
+}
+.remove-ins-main-container .up-arrow{
+    width: 0;
+    height: 0;
+    background-color: #000;
+    border:20px solid #0099CC;
+    border-bottom: 20px solid #fff;
+    position: relative;
+    top: -140px;
+    right:-650px;
+}
+.add-new-prog-main-container .up-arrow{
+     width: 0;
+    height: 0;
+    background-color: #000;
+    border:20px solid #0099CC;
+    border-bottom: 20px solid #fff;
+    position: relative;
+    top: -140px;
+    left: 380px;
+}
+label[for=ddl_RemoveInstituteList]
+{
+    font-weight: 700;
+    color: #666;
+    font-size: 1.05em;
+    font-family: 'Raleway';
+    text-transform: capitalize;
+    margin-right: 6px;
+    margin-left: 0px;
+}
+#ddl_RemoveInstituteList{
+    font-weight: 500;
+    color: #333;
+    font-size: 1em;
+    font-family: 'Raleway';
+    margin-top: 10px;  
+    margin-left: 0px; 
+}
+#btn_RemoveInstitute{
+     background-color: #1da1f2;
+    border-radius:4px;
+    min-width: 250px;
+    padding: 0px 10px;
+    height: 35px;
+    border: none;
+    color: #fff;
+    margin-bottom: 10px;
+    font-size: 1em;
+    transition: all 150ms ease-out;
+    -moz-transition: all 150ms ease-out;
+    -webkit-transition: all 150ms ease-out;
+    -o-transition: all 150ms ease-out;
+    position: relative;
+    top: 5px;
+    left: 0px;
+    cursor: pointer;
+}
+
+#lb_RemoveUniversity{
+    width: 200px;
+    background-color:#eee;
+    display:block;
+    margin: 10px auto 0px auto;
+    height: 25px;
+    text-decoration: none;
+    line-height: 25px;
+    position: relative;
+    top: 7px;
+    left: 0px;
+}
+
+#ddl_RemoveUniList{
+    width: 250px;
+    height: 30px;
+    border-radius: 4px;
+    margin: 10px;
+    position: relative;
+    top:-10px;
+    left: 0px;
+}
+#btn_Cancel{
+    position: relative;
+    top: 5px;
+    border:none;
+    outline:none;
+    background-color:transparent;
+    color: #15f;
+    font-family: 'Raleway';
+    font-weight: 600;
+}
+#btn_Cancel:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+#btn_Cancel:active{
+    color: #d13;
+}
+
+
+
+label[for=ddl_ProgrammeType]
+{
+    color: #444;
+    font-size: 1.3em;
+    font-weight: 700;
+
+}
+#ddl_ProgrammeType
+{
+    font-size: 1.05em;
+    color: #888;
+    font-weight: 600;
+    font-family: 'Raleway';
+    padding: 0px 10px;
+    height: 30px;
+    outline: none;
+    border: 2px solid #ccc;
+    
+}
+
+
+
+#tb_Duration
+{
+    margin-left: 1in;
+    width: 28%;
+}

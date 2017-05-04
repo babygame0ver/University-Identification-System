@@ -1,0 +1,283 @@
+﻿*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+header{
+    height: 50px;
+    background-color: #0099cc;
+}
+.logo{
+    float: left;
+    font-family: sans-serif;
+    font-size: 2.1em;
+    margin-left: 15%;
+    margin-top: 6px;
+    color: #eee;
+    font-weight: 500;
+}
+
+
+/* styling rules for institute found report */
+
+#lbl_msg{
+    display: block;
+    padding: 4px 10px;
+    font-size: 1.5em;
+    font-family: 'Raleway';
+    font-weight: 600;
+    margin-top: 50px;
+    letter-spacing: 1px; 
+    color: #fff;   
+}
+#pnl_Results{
+    /*outline: 1px solid #000;*/
+    width: 100%;
+    margin-top: 10px;
+}
+#lbl_InstituteName
+{
+    text-align: center;
+    font-family: 'Raleway';
+    font-size: 2em;
+    color: #000;
+    font-weight: 600;
+    
+}
+.ins-id-box{
+    display: inline-block;
+    
+}
+
+#img_logo{
+    outline: 1px solid #000;
+    float: left;
+    margin-top: 0px;
+    margin-left: 300px;
+    width: 200px;
+    max-height: 200px;
+    min-height: 200px;
+    margin-right: 10%;
+}
+label[for=lbl_InstituteID]
+{
+    text-align: center;
+    font-family: 'Raleway';
+    font-size: 1.25em;
+    color: #555;
+    font-weight: 600;
+}
+#lbl_InstituteID{
+    /*background-color: #f0c36d;*/
+    color: #000;
+    font-weight: 600;
+    font-family: 'Raleway';
+    padding: 2px 10px;
+}
+#lbl_InstituteAff{
+    color: #000;
+    font-size: 1em;
+}
+#lbl_InstituteState{
+    color: #333;
+    font-size: 1.1em;
+    
+}
+#lbl_InstituteAddress,#lbl_InstituteCity
+{
+    color: #444;
+    font-size: 1.1em;
+    
+    text-transform: capitalize;
+}
+#lbl_InstituteEmail{
+    letter-spacing: 1px ;
+    font-size: 1em;
+    color: #222;
+    font-weight:500; 
+}
+#lbl_InstituteContact,#lbl_InstituteAffDate,#lbl_InstituteEstablished{
+    color: #333;
+    font-size: 1.1em;
+    font-family: 'Raleway';
+}
+
+#pnl_ReportFake{
+    /*outline: 1px solid #000;*/
+}
+#pnl_ReportFake h3{
+    text-align: center;
+    font-size: 1.4em;
+    font-family: 'Raleway';
+    width: 60%;
+    display: block;
+    margin: 30px auto;
+}
+.report-form-box{
+    /*outline: 1px solid #000;*/
+    width: 500px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+#tb_InstituteIDFake,#tb_InstituteName{
+    width: 80%;
+    height: 25px;
+    padding: 0px 10px;
+    color: #333;
+    font-size: 1em;
+    font-family:'Raleway';
+    margin: 5px 0px;
+}
+#tb_MessageBody{
+    min-width: 80%;
+    max-width: 80%;
+    min-height: 60px;
+    max-height: 200px;
+    padding: 10px;
+}
+#btn_ReportFake{
+    width: 80%;
+    height:30px;
+    border:none;
+    background-color: #0099cc;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-family:'Raleway';
+    font-size: 1.05em;
+    cursor: pointer;
+    margin-left:4px;
+    margin-top: 5px;
+}
+#hl_BackLink
+{
+    text-decoration: none;
+    color: #eee;
+    /*outline: 1px solid #fff;*/
+    display: inline-flex;
+    padding: 3px 4px;
+    margin-top: 12px;
+    margin-left: 90px; 
+    font-family: 'Raleway';  
+    font-weight: 500;
+}
+#hl_BackLink:hover{
+    color: #ef7;
+    text-decoration: underline;
+}
+#hl_BackLink:visited{
+    color: #afa;
+}
+.main-container img{
+    display: block;
+    margin: 50px auto 0px auto;
+}
+.main-container .form-container{
+    /*outline: 1px solid #000;*/
+    width: 400px;
+    display: block;
+    margin: 10px auto;
+    text-align:center;
+}
+.form-container input[type=text],.form-container input[type=password],.form-container input[type=submit]
+{
+    width: 300px;
+    height: 30px;
+    margin: 3px auto;
+    outline:none;
+    font-size: 0.9em;
+}
+.form-container input[type=text]{
+    margin-top: 20px;
+}
+.form-container input[type=text],.form-container input[type=password]{
+    border: 2px solid #999;
+    padding: 0px 4px;
+}
+.form-container input[type=text]:focus,.form-container input[type=password]:focus{
+    border: 2px solid #0078d7;
+}
+.form-container input[type=submit]{
+    background-color: #0078d7;
+    border-color: #0078d7;
+    border:none;
+    color: #fff;
+    font-family:'Lucida Sans', 'Lucida Sans Regular';
+    margin-top: 10px;
+    transition: background-color 150ms ease-out;
+    -moz-transition: background-color 150ms ease-out;
+    -webkit-transition: background-color 150ms ease-out;
+    -o-transition: background-color 150ms ease-out;
+}
+.form-container input[type=submit]:hover{
+    background-color: #0078e7;
+    cursor: pointer;
+}
+
+.main-container .form-title{
+    font-size: 2em;
+    font-family: 'Raleway';
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    color: #0099cc;
+}
+.check-table-title{
+    text-align: center;
+}
+
+#gv_ProgrammesList{
+    margin: 10px auto 100px auto;
+}
+#gv_ProgrammesList th{
+    height: 30px;
+    background-color: #aaa;
+    padding: 10px;
+    
+}
+
+#gv_ProgrammesList td{
+    padding: 5px 10px;
+    font-family: 'Raleway';
+}
+
+.uni-result-box{
+}
+.uni-result-box label {
+    font-size: 1em;
+    font-weight: 700;
+    font-family: 'Raleway';
+    color: #000;
+    line-height: 20px;
+}
+label[for=lbl_InstituteAffDate]{
+    
+}
+.ins-date-box{
+    /*outline: 1px solid #000;*/
+    text-align: center;
+    padding-left: 115px;
+}
+label[for=lbl_InstituteWeb],label[for=hl_two]
+{
+    margin-left: 47%;
+}
+#rbl_ReportType{
+    text-align: left;
+    margin-left: 80px;
+    margin-bottom: 20px;
+}
+#lbl_InstituteType{
+    position: relative;
+    right: 0px;
+    background-color: #f0c36d;
+    color: #000;
+    font-weight: 600;
+    font-family: 'Raleway';
+    padding: 1px 5px;
+    font-size: 0.9em;
+    top: -5px;
+}
+}

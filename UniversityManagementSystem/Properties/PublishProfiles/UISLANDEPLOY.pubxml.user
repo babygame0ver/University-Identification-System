@@ -1,0 +1,478 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\Bindra\Documents\Visual Studio 2015\PublishingCo\UISLANDEPLOY7</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="ApplicationInsights.config">
+      <publishTime>03/11/2017 09:11:52</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>02/22/2013 07:43:40</publishTime>
+    </File>
+    <File Include="bin/ApplicationInsights.config">
+      <publishTime>03/11/2017 09:11:52</publishTime>
+    </File>
+    <File Include="bin/AspNet.ScriptManager.bootstrap.dll">
+      <publishTime>08/22/2013 22:09:14</publishTime>
+    </File>
+    <File Include="bin/AspNet.ScriptManager.jQuery.dll">
+      <publishTime>07/16/2013 20:06:22</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>03/02/2015 08:32:26</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>03/02/2015 08:32:26</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.Agent.Intercept.dll">
+      <publishTime>11/30/2016 16:07:42</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.DependencyCollector.dll">
+      <publishTime>12/07/2016 11:45:42</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.PerfCounterCollector.dll">
+      <publishTime>12/07/2016 11:50:34</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.ServerTelemetryChannel.dll">
+      <publishTime>12/06/2016 15:15:48</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.Web.dll">
+      <publishTime>12/07/2016 11:49:10</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.WindowsServer.dll">
+      <publishTime>12/07/2016 11:50:34</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ApplicationInsights.dll">
+      <publishTime>12/06/2016 15:09:52</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.FriendlyUrls.dll">
+      <publishTime>07/30/2013 16:57:30</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.Core.dll">
+      <publishTime>04/03/2015 17:07:22</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.EntityFramework.dll">
+      <publishTime>04/03/2015 17:07:22</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.Owin.dll">
+      <publishTime>04/03/2015 17:07:22</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Web.Optimization.WebForms.dll">
+      <publishTime>02/11/2014 14:26:04</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>06/15/2015 02:06:24</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.dll">
+      <publishTime>02/13/2015 12:16:30</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Host.SystemWeb.dll">
+      <publishTime>02/13/2015 12:16:34</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Cookies.dll">
+      <publishTime>02/13/2015 12:16:38</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.dll">
+      <publishTime>02/13/2015 12:16:36</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Facebook.dll">
+      <publishTime>02/13/2015 12:16:38</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Google.dll">
+      <publishTime>02/13/2015 12:16:38</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.MicrosoftAccount.dll">
+      <publishTime>02/13/2015 12:16:40</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.OAuth.dll">
+      <publishTime>02/13/2015 12:16:40</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Twitter.dll">
+      <publishTime>02/13/2015 12:16:42</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ScriptManager.MSAjax.dll">
+      <publishTime>09/06/2013 11:20:12</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ScriptManager.WebForms.dll">
+      <publishTime>09/06/2013 11:20:22</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>01/05/2012 10:08:46</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>08/03/2014 20:33:56</publishTime>
+    </File>
+    <File Include="bin/Owin.dll">
+      <publishTime>11/27/2012 12:00:52</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>06/18/2015 20:19:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>06/18/2015 20:19:46</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>02/11/2014 14:26:04</publishTime>
+    </File>
+    <File Include="bin/System.Web.Providers.dll">
+      <publishTime>11/22/2013 09:21:56</publishTime>
+    </File>
+    <File Include="bin/UniversityManagementSystem.dll">
+      <publishTime>04/01/2017 07:53:10</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>09/10/2013 17:28:38</publishTime>
+    </File>
+    <File Include="Bundle.config">
+      <publishTime>03/11/2017 09:10:28</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>03/11/2017 09:11:00</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>03/11/2017 09:11:00</publishTime>
+    </File>
+    <File Include="Content/Site.css">
+      <publishTime>03/11/2017 09:11:12</publishTime>
+    </File>
+    <File Include="Data Configuration Filled-100.png">
+      <publishTime>03/26/2017 15:47:16</publishTime>
+    </File>
+    <File Include="Feedback Filled-100.png">
+      <publishTime>03/26/2017 15:48:36</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>03/11/2017 09:11:00</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>03/11/2017 09:11:00</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>03/11/2017 09:11:00</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>03/11/2017 09:11:00</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>03/11/2017 09:10:28</publishTime>
+    </File>
+    <File Include="ID not Verified Filled-100.png">
+      <publishTime>03/26/2017 15:51:04</publishTime>
+    </File>
+    <File Include="ID Verified Filled-100.png">
+      <publishTime>03/26/2017 15:42:56</publishTime>
+    </File>
+    <File Include="InstituteAdmin/AddDegrees.aspx">
+      <publishTime>03/13/2017 08:31:24</publishTime>
+    </File>
+    <File Include="InstituteAdmin/ContactUGC.aspx">
+      <publishTime>03/26/2017 21:53:32</publishTime>
+    </File>
+    <File Include="InstituteAdmin/contactUGC.css">
+      <publishTime>03/26/2017 22:05:08</publishTime>
+    </File>
+    <File Include="InstituteAdmin/Data Configuration Filled-100.png">
+      <publishTime>03/26/2017 15:47:16</publishTime>
+    </File>
+    <File Include="InstituteAdmin/Default.aspx">
+      <publishTime>03/26/2017 16:20:30</publishTime>
+    </File>
+    <File Include="InstituteAdmin/default.css">
+      <publishTime>03/26/2017 16:14:28</publishTime>
+    </File>
+    <File Include="InstituteAdmin/Feedback Filled-100 %281%29.png">
+      <publishTime>03/26/2017 18:20:58</publishTime>
+    </File>
+    <File Include="InstituteAdmin/Feedback Filled-100.png">
+      <publishTime>03/26/2017 15:48:36</publishTime>
+    </File>
+    <File Include="InstituteAdmin/Feedback Filled-100_1.png">
+      <publishTime>03/26/2017 18:22:18</publishTime>
+    </File>
+    <File Include="InstituteAdmin/Feedback-80.png">
+      <publishTime>03/26/2017 18:20:18</publishTime>
+    </File>
+    <File Include="InstituteAdmin/ID not Verified Filled-100.png">
+      <publishTime>03/26/2017 15:51:04</publishTime>
+    </File>
+    <File Include="InstituteAdmin/ID Verified Filled-100.png">
+      <publishTime>03/26/2017 15:42:56</publishTime>
+    </File>
+    <File Include="InstituteAdmin/insAuth.css">
+      <publishTime>03/25/2017 02:53:00</publishTime>
+    </File>
+    <File Include="InstituteAdmin/InstituteAuthentication.aspx">
+      <publishTime>04/01/2017 05:25:24</publishTime>
+    </File>
+    <File Include="InstituteAdmin/Login As User Filled-100.png">
+      <publishTime>03/26/2017 15:40:24</publishTime>
+    </File>
+    <File Include="InstituteAdmin/Museum Filled-100 %281%29.png">
+      <publishTime>03/26/2017 15:41:34</publishTime>
+    </File>
+    <File Include="InstituteAdmin/Museum Filled-100 %282%29.png">
+      <publishTime>03/26/2017 15:42:28</publishTime>
+    </File>
+    <File Include="InstituteAdmin/Museum Filled-100.png">
+      <publishTime>03/25/2017 11:58:44</publishTime>
+    </File>
+    <File Include="InstituteAdmin/New Message Filled-100.png">
+      <publishTime>03/26/2017 15:48:28</publishTime>
+    </File>
+    <File Include="InstituteAdmin/Proceed as an Institute admin.png">
+      <publishTime>03/26/2017 20:00:42</publishTime>
+    </File>
+    <File Include="InstituteAdmin/Reviewer Male Filled-100.png">
+      <publishTime>03/26/2017 18:20:06</publishTime>
+    </File>
+    <File Include="InstituteAdmin/UpdateDetails.aspx">
+      <publishTime>04/01/2017 00:57:19</publishTime>
+    </File>
+    <File Include="InstituteAdmin/User Filled-100.png">
+      <publishTime>03/26/2017 15:41:02</publishTime>
+    </File>
+    <File Include="jQuery_v1_11_1.js">
+      <publishTime>07/30/2016 18:46:10</publishTime>
+    </File>
+    <File Include="landingPage.css">
+      <publishTime>03/26/2017 22:07:22</publishTime>
+    </File>
+    <File Include="New Message Filled-100.png">
+      <publishTime>03/26/2017 15:48:28</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>03/11/2017 09:11:52</publishTime>
+    </File>
+    <File Include="Proceed as a UGCAdmin.png">
+      <publishTime>03/26/2017 15:40:24</publishTime>
+    </File>
+    <File Include="Proceed as a Visitor.png">
+      <publishTime>03/26/2017 19:54:26</publishTime>
+    </File>
+    <File Include="Proceed as an Institute admin.png">
+      <publishTime>03/26/2017 20:00:42</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>03/11/2017 09:11:00</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>03/11/2017 09:11:00</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.js">
+      <publishTime>03/11/2017 09:10:56</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.js">
+      <publishTime>03/11/2017 09:10:56</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.map">
+      <publishTime>03/11/2017 09:10:54</publishTime>
+    </File>
+    <File Include="Scripts/modernizr-2.6.2.js">
+      <publishTime>03/11/2017 09:10:58</publishTime>
+    </File>
+    <File Include="Scripts/respond.js">
+      <publishTime>03/11/2017 09:10:58</publishTime>
+    </File>
+    <File Include="Scripts/respond.min.js">
+      <publishTime>03/11/2017 09:10:58</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/DetailsView.js">
+      <publishTime>03/11/2017 09:11:08</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/Focus.js">
+      <publishTime>03/11/2017 09:11:08</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/GridView.js">
+      <publishTime>03/11/2017 09:11:08</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/Menu.js">
+      <publishTime>03/11/2017 09:11:08</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MenuStandards.js">
+      <publishTime>03/11/2017 09:11:08</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjax.js">
+      <publishTime>03/11/2017 09:11:06</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxApplicationServices.js">
+      <publishTime>03/11/2017 09:11:06</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxComponentModel.js">
+      <publishTime>03/11/2017 09:11:06</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxCore.js">
+      <publishTime>03/11/2017 09:11:06</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxGlobalization.js">
+      <publishTime>03/11/2017 09:11:06</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxHistory.js">
+      <publishTime>03/11/2017 09:11:06</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxNetwork.js">
+      <publishTime>03/11/2017 09:11:06</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxSerialization.js">
+      <publishTime>03/11/2017 09:11:06</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxTimer.js">
+      <publishTime>03/11/2017 09:11:06</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxWebForms.js">
+      <publishTime>03/11/2017 09:11:06</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/MSAjax/MicrosoftAjaxWebServices.js">
+      <publishTime>03/11/2017 09:11:06</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/SmartNav.js">
+      <publishTime>03/11/2017 09:11:08</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/TreeView.js">
+      <publishTime>03/11/2017 09:11:06</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/WebForms.js">
+      <publishTime>03/11/2017 09:11:06</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/WebParts.js">
+      <publishTime>03/11/2017 09:11:06</publishTime>
+    </File>
+    <File Include="Scripts/WebForms/WebUIValidation.js">
+      <publishTime>03/11/2017 09:11:06</publishTime>
+    </File>
+    <File Include="Scripts/_references.js">
+      <publishTime>03/31/2017 21:47:02</publishTime>
+    </File>
+    <File Include="StudentPhotos/Photo-PUN-LPU-LPU00001.jpg">
+      <publishTime>03/26/2017 16:22:54</publishTime>
+    </File>
+    <File Include="UGCAdmin/addIns.css">
+      <publishTime>04/01/2017 05:48:40</publishTime>
+    </File>
+    <File Include="UGCAdmin/AddInstitutes.aspx">
+      <publishTime>04/01/2017 05:43:56</publishTime>
+    </File>
+    <File Include="UGCAdmin/adminAuth.css">
+      <publishTime>03/25/2017 14:14:12</publishTime>
+    </File>
+    <File Include="UGCAdmin/AdminAuthentication.aspx">
+      <publishTime>03/31/2017 19:03:18</publishTime>
+    </File>
+    <File Include="UGCAdmin/Data Configuration Filled-100.png">
+      <publishTime>03/26/2017 15:47:16</publishTime>
+    </File>
+    <File Include="UGCAdmin/Default.aspx">
+      <publishTime>03/31/2017 19:04:48</publishTime>
+    </File>
+    <File Include="UGCAdmin/default.css">
+      <publishTime>03/26/2017 11:39:44</publishTime>
+    </File>
+    <File Include="UGCAdmin/Feedback Filled-100.png">
+      <publishTime>03/26/2017 15:48:36</publishTime>
+    </File>
+    <File Include="UGCAdmin/ID not Verified Filled-100.png">
+      <publishTime>03/26/2017 15:51:04</publishTime>
+    </File>
+    <File Include="UGCAdmin/ID Verified Filled-100.png">
+      <publishTime>03/26/2017 15:42:56</publishTime>
+    </File>
+    <File Include="UGCAdmin/Login As User Filled-100.png">
+      <publishTime>03/26/2017 15:40:24</publishTime>
+    </File>
+    <File Include="UGCAdmin/Museum Filled-100 %281%29.png">
+      <publishTime>03/26/2017 15:41:34</publishTime>
+    </File>
+    <File Include="UGCAdmin/Museum Filled-100 %282%29.png">
+      <publishTime>03/26/2017 15:42:28</publishTime>
+    </File>
+    <File Include="UGCAdmin/Museum Filled-100.png">
+      <publishTime>03/25/2017 11:58:44</publishTime>
+    </File>
+    <File Include="UGCAdmin/New Message Filled-100.png">
+      <publishTime>03/26/2017 15:48:28</publishTime>
+    </File>
+    <File Include="UGCAdmin/requests.png">
+      <publishTime>03/26/2017 21:00:32</publishTime>
+    </File>
+    <File Include="UGCAdmin/seeReq.css">
+      <publishTime>03/26/2017 21:23:16</publishTime>
+    </File>
+    <File Include="UGCAdmin/SeeRequests.aspx">
+      <publishTime>04/01/2017 00:07:20</publishTime>
+    </File>
+    <File Include="UGCAdmin/User Filled-100.png">
+      <publishTime>03/26/2017 15:41:02</publishTime>
+    </File>
+    <File Include="UISLandingPage.aspx">
+      <publishTime>03/26/2017 21:32:04</publishTime>
+    </File>
+    <File Include="ViewSwitcher.ascx">
+      <publishTime>03/11/2017 09:11:08</publishTime>
+    </File>
+    <File Include="Visitor/checkDeg.css">
+      <publishTime>03/25/2017 12:26:10</publishTime>
+    </File>
+    <File Include="Visitor/CheckDegree.aspx">
+      <publishTime>03/25/2017 12:25:44</publishTime>
+    </File>
+    <File Include="Visitor/checkIns.css">
+      <publishTime>04/01/2017 07:52:53</publishTime>
+    </File>
+    <File Include="Visitor/CheckInstitute.aspx">
+      <publishTime>04/01/2017 07:50:02</publishTime>
+    </File>
+    <File Include="Visitor/Default.aspx">
+      <publishTime>03/31/2017 23:48:46</publishTime>
+    </File>
+    <File Include="Visitor/ID Verified.png">
+      <publishTime>03/26/2017 15:42:56</publishTime>
+    </File>
+    <File Include="Visitor/Verified Institute.png">
+      <publishTime>03/26/2017 15:42:28</publishTime>
+    </File>
+    <File Include="Visitor/visit.css">
+      <publishTime>03/25/2017 00:12:30</publishTime>
+    </File>
+    <File Include="Visitor/visitor.css">
+      <publishTime>03/26/2017 16:34:28</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>03/31/2017 21:07:22</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
